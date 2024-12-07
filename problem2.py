@@ -54,6 +54,7 @@ def get_area():
     # Returning the area as a string.
     return f"The area of a {shape} is {area}."
 
+# This returns if it is not a num for error messages.
 def is_not_num(str):
     try:
         str = float(str)
