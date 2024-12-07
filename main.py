@@ -1,4 +1,4 @@
-from problem1 import *
+from problem1 import*
 
 print(is_palindrome("Racecar"))
 print(is_palindrome("Hello"))

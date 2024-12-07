@@ -1,5 +1,5 @@
 '''
-Problem - Create a function to check if the given string is a palindrome
+Problem - Create a program to check if the given string is a palindrome
 
 Need to get rid of captilization, punctuation and empty spaces.
 
@@ -28,4 +28,3 @@ def is_palindrome(s):
         return "The string is a palindrome."
     else:
         return "The string is not a palindrome."
-    
