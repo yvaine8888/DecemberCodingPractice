@@ -10,6 +10,7 @@ replace spaces and punctuation with empty from a string with it all
 
 check if the string is equal to it reversed
 if so return true else return false
+Note: I consider empty to be palindrome.
 '''
 
 def is_palindrome(s):
