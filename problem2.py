@@ -37,6 +37,7 @@ def get_area():
         side_length = input("Please enter the side-length: ")
         if is_not_num(side_length):
             return "I'm sorry, but this is not valid."
+        side_length = float(side_length)
         area = side_length * side_length
     elif shape == "triangle":
         base = input("Please enter the base: ")
