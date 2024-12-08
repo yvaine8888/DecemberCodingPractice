@@ -18,6 +18,7 @@ num = random.randint(1, 100)
 
 # The while loop that allows the user to guess and prints when the input is incorrect or correct.
 while True:
+    print()
     # The user's guess
     guess = input("Please guess a number 1-100: ")
     # Printing error if the input is not a number else make it an integer
