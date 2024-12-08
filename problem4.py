@@ -29,7 +29,7 @@ while True:
     
     # Tell if the number is corect or incorrect and print messages based on that.
     if guess == num:
-        print("Congragulations! You guessed the right number.")
+        print("Congratulations! You guessed the right number.")
         break
     elif guess > 100 or guess < 1:
         print("Please guess a number 1-100 next time.")
